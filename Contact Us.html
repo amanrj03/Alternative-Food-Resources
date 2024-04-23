@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  margin-left: 2.5rem;
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 25rem;
+  position: relative;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+  }
+}
+    .heading{
+        text-align: center;
+        font-family: bold;
+        font-size: 50px;
+
+
+    }
+
+
+    .contact{
+        justify-content: center;
+
+
+    }
+    .body{
+        background-image: url(background_new.jpg);
+    }
+    </style>
+</head>
+<body class="body">
+    <div class="heading">
+        <h1 class="heading">Contact Us</h1>
+    </div>
+
+<div class="row">
+    <div class="column">
+        <img src="img_avatar.jpg" alt="Avatar" style="width:20%; position:relative; left: 170px;">
+        <div class="card">
+          <h4 style="font-size: 30px;"><b>Manish Kumar Thakur</b></h4>
+          <p>B.Tech CSE Student</p><br>
+          <img src="call.jpg" style="width: 18px; position: absolute; left: 128px; bottom: 183px;">
+          <p>+91-91XXXXXXXX</p>
+          <img src="instagram.jpg" style="width: 18px; position: absolute; left: 100px;">
+          <img src="linkedin.jpg" style="width: 18px; position: absolute; left: 130px;">
+          <img src="mail.jpg" style="width: 18px; position: absolute; left: 70px;">
+        </div>
+      </div>
+
+      <div class="column">
+        <img src="img_avatar.jpg" alt="Avatar" style="width:20%; position:relative; left: 170px;">
+        <div class="card">
+          <h4 style="font-size: 30px;"><b>Rudransh Raut</b></h4>
+          <p>B.Tech CSE Student</p><br>
+          <img src="call.jpg" style="width: 18px; position: absolute; left: 128px; bottom: 183px;">
+          <p>+91-756XXXXXXX</p>
+          <img src="instagram.jpg" style="width: 18px; position: absolute; left: 100px;">
+          <img src="linkedin.jpg" style="width: 18px; position: absolute; left: 130px;">
+          <img src="mail.jpg" style="width: 18px; position: absolute; left: 70px;">
+        </div>
+      </div>
+
+      <div class="column">
+        <img src="img_avatar.jpg" alt="Avatar" style="width:20%; position:relative; left: 170px;">
+        <div class="card">
+          <h4 style="font-size: 30px;"><b>Lalhlimtuanga</b></h4>
+          <p>B.Tech CSE Student</p><br>
+          <img src="call.jpg" style="width: 18px; position: absolute; left: 128px; bottom: 183px;">
+          <p>+91-895XXXXXXX</p>
+          <img src="instagram.jpg" style="width: 18px; position: absolute; left: 100px;">
+          <img src="linkedin.jpg" style="width: 18px; position: absolute; left: 130px;">
+          <img src="mail.jpg" style="width: 18px; position: absolute; left: 70px;">
+        </div>
+      </div>
+</div>
+    
+</body>
+</html>
